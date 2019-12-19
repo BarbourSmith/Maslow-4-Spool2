@@ -186,6 +186,21 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1077,
+                    "y": 152,
+                    "uniqueID": 534471,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Spool",
+                        "numberNeeded": 1,
+                        "costUSD": 16,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Stl",
                     "name": "Stl",
                     "x": 1071,
@@ -281,16 +296,23 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 545949
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": false,
                     "ap1ID": 545949,
                     "ap2ID": 617259
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 545949,
+                    "ap2ID": 534471
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 534471
                 }
             ],
             "fileTypeVersion": 1
