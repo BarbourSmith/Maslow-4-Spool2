@@ -180,16 +180,16 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 846,
-                    "y": 187,
+                    "x": 751,
+                    "y": 194,
                     "uniqueID": 545949,
                     "ioValues": []
                 },
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 1077,
-                    "y": 152,
+                    "x": 929,
+                    "y": 90,
                     "uniqueID": 534471,
                     "ioValues": [],
                     "BOMitem": {
@@ -207,6 +207,15 @@
                     "y": 248,
                     "uniqueID": 617259,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 1162,
+                    "y": 111,
+                    "uniqueID": 282516,
+                    "ioValues": [],
+                    "selectedColorIndex": "1"
                 },
                 {
                     "atomType": "Output",
@@ -310,9 +319,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 534471,
+                    "ap2ID": 282516
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 534471
+                    "ap1ID": 282516
                 }
             ],
             "fileTypeVersion": 1
