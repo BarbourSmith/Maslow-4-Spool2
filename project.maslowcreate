@@ -18,7 +18,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 79.5
+                            "ioValue": 95
                         }
                     ]
                 },
@@ -31,7 +31,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 90
+                            "ioValue": 100
                         }
                     ]
                 },
@@ -154,6 +154,15 @@
                             "ioValue": 8
                         }
                     ]
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 584,
+                    "y": 33,
+                    "uniqueID": 889728,
+                    "ioValues": [],
+                    "readmeText": "Readme text here"
                 },
                 {
                     "atomType": "Assembly",
