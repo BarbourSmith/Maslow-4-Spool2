@@ -38,8 +38,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 153,
-                    "y": 281,
+                    "x": 133,
+                    "y": 268,
                     "uniqueID": 663018,
                     "ioValues": [
                         {
@@ -51,8 +51,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 387,
-                    "y": 146,
+                    "x": 327,
+                    "y": 112,
                     "uniqueID": 672792,
                     "ioValues": [
                         {
@@ -70,23 +70,10 @@
                     ]
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 368,
-                    "y": 233,
-                    "uniqueID": 208920,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 6
-                        }
-                    ]
-                },
-                {
                     "atomType": "ShrinkWrap",
                     "name": "Shrink Wrap",
-                    "x": 516,
-                    "y": 291,
+                    "x": 480,
+                    "y": 165,
                     "uniqueID": 416062,
                     "ioValues": [
                         {
@@ -109,6 +96,19 @@
                     "closedSelection": 0
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 440,
+                    "y": 268,
+                    "uniqueID": 208920,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 6
+                        }
+                    ]
+                },
+                {
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 588,
@@ -119,13 +119,13 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 655,
-                    "y": 46,
+                    "x": 649,
+                    "y": 49,
                     "uniqueID": 187297,
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 16
+                            "ioValue": 11.5
                         }
                     ]
                 },
@@ -214,16 +214,16 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "geometry1",
                     "ap2Primary": false,
-                    "ap1ID": 208920,
+                    "ap1ID": 416062,
                     "ap2ID": 414884
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
+                    "ap2Name": "geometry2",
                     "ap2Primary": false,
-                    "ap1ID": 416062,
+                    "ap1ID": 208920,
                     "ap2ID": 414884
                 },
                 {
@@ -427,8 +427,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 751,
-                    "y": 194,
+                    "x": 755,
+                    "y": 196,
                     "uniqueID": 545949,
                     "ioValues": []
                 },
