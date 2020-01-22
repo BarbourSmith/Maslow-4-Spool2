@@ -285,7 +285,7 @@
                     "y": 87,
                     "uniqueID": 195158,
                     "ioValues": [],
-                    "readmeText": "The belt is length 350mm the diameter of the large sprocket is 101.87 and it has 160 teeth. The small sprocket has 20T for a diameter of 12.7324"
+                    "readmeText": "The belt is length 350mm the diameter of the large sprocket is 101.87 and it has 160 teeth. The small sprocket has 20T for a diameter of 12.7324"
                 },
                 {
                     "atomType": "Circle",
@@ -296,7 +296,25 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 100
+                            "ioValue": 120
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "2GT Sprocket",
+                    "x": 246,
+                    "y": 106,
+                    "uniqueID": 577795,
+                    "projectID": "235682860",
+                    "ioValues": [
+                        {
+                            "name": "Number of teeth",
+                            "ioValue": 160
+                        },
+                        {
+                            "name": "Resolution",
+                            "ioValue": 0.25
                         }
                     ]
                 },
@@ -486,15 +504,15 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 489616,
-                    "ap2ID": 961859
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 330646,
                     "ap2ID": 551318
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 577795,
+                    "ap2ID": 961859
                 },
                 {
                     "ap1Name": "geometry",
