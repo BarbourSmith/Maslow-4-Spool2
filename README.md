@@ -7,6 +7,9 @@
 ## Maslow 4 Spool2
 
 
+The belt is length 350mm the diameter of the large 
+
+
 Readme text here
 
 

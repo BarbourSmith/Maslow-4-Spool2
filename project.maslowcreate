@@ -268,21 +268,30 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 78,
-                    "y": 52,
+                    "x": 75,
+                    "y": 54,
                     "uniqueID": 489616,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 95
+                            "ioValue": 100
                         }
                     ]
                 },
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 127,
+                    "y": 90,
+                    "uniqueID": 195158,
+                    "ioValues": [],
+                    "readmeText": "The belt is length 350mm the diameter of the large "
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 78,
-                    "y": 112,
+                    "x": 105,
+                    "y": 169,
                     "uniqueID": 330646,
                     "ioValues": [
                         {
@@ -294,8 +303,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 69,
-                    "y": 176,
+                    "x": 109,
+                    "y": 265,
                     "uniqueID": 904447,
                     "ioValues": [
                         {
@@ -307,8 +316,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 279,
-                    "y": 104,
+                    "x": 339,
+                    "y": 164,
                     "uniqueID": 551318,
                     "ioValues": [
                         {
@@ -320,8 +329,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 306,
-                    "y": 163,
+                    "x": 379,
+                    "y": 237,
                     "uniqueID": 736293,
                     "ioValues": [
                         {
