@@ -127,7 +127,12 @@
                     "x": 588,
                     "y": 197,
                     "uniqueID": 414884,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -149,6 +154,10 @@
                     "y": 207,
                     "uniqueID": 499892,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -470,7 +479,16 @@
                     "x": 755,
                     "y": 196,
                     "uniqueID": 545949,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Add BOM Tag",

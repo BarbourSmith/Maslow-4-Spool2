@@ -2,7 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Spool|1|$16.00|www.example.com|
-|Total: |1|$16.00| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $48.00
+ 3xCOG MSRP: $0.00
