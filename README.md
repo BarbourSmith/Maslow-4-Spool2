@@ -13,10 +13,10 @@ The belt is length 350mm the diameter of the large sprocket is 101.87 and it has
 ## 2GT Sprocket
 
 
-Readme text here
-
-
 ## Cut Away
+
+
+Readme text here
 
 
 undefined

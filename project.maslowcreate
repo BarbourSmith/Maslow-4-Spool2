@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Cut Away",
-            "x": 538,
-            "y": 270,
+            "x": 524,
+            "y": 246,
             "uniqueID": 796300,
             "ioValues": [],
             "topLevel": false,
@@ -426,6 +426,14 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Cut Away",
+                    "x": 524,
+                    "y": 246,
+                    "uniqueID": 796300,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Readme",
                     "name": "README",
                     "x": 584,
@@ -433,14 +441,6 @@
                     "uniqueID": 889728,
                     "ioValues": [],
                     "readmeText": "Readme text here"
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Cut Away",
-                    "x": 538,
-                    "y": 270,
-                    "uniqueID": 796300,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
@@ -490,8 +490,8 @@
                 {
                     "atomType": "Stl",
                     "name": "Stl",
-                    "x": 1071,
-                    "y": 248,
+                    "x": 1072,
+                    "y": 244,
                     "uniqueID": 617259,
                     "ioValues": []
                 },
