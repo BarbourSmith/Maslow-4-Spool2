@@ -25,9 +25,22 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 117,
-                    "y": 188,
+                    "x": 105,
+                    "y": 152,
                     "uniqueID": 904071,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 96
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 106,
+                    "y": 211,
+                    "uniqueID": 663018,
                     "ioValues": [
                         {
                             "name": "diameter",
@@ -38,9 +51,9 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 133,
-                    "y": 268,
-                    "uniqueID": 663018,
+                    "x": 112,
+                    "y": 284,
+                    "uniqueID": 581983,
                     "ioValues": [
                         {
                             "name": "diameter",
@@ -72,8 +85,8 @@
                 {
                     "atomType": "ShrinkWrap",
                     "name": "Shrink Wrap",
-                    "x": 480,
-                    "y": 165,
+                    "x": 481,
+                    "y": 175,
                     "uniqueID": 416062,
                     "ioValues": [
                         {
@@ -202,7 +215,7 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 663018,
+                    "ap1ID": 581983,
                     "ap2ID": 208920
                 },
                 {
@@ -296,7 +309,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 120
+                            "ioValue": 106
                         }
                     ]
                 },
