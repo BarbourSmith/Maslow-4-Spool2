@@ -127,7 +127,12 @@
                     "x": 588,
                     "y": 197,
                     "uniqueID": 414884,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -149,6 +154,10 @@
                     "y": 207,
                     "uniqueID": 499892,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -347,8 +356,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 339,
-                    "y": 164,
+                    "x": 312,
+                    "y": 160,
                     "uniqueID": 551318,
                     "ioValues": [
                         {
@@ -373,8 +382,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 454,
-                    "y": 106,
+                    "x": 443,
+                    "y": 107,
                     "uniqueID": 549753,
                     "ioValues": [
                         {
@@ -470,22 +479,16 @@
                     "x": 755,
                     "y": 196,
                     "uniqueID": 545949,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 929,
-                    "y": 90,
-                    "uniqueID": 534471,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "Spool",
-                        "numberNeeded": 1,
-                        "costUSD": 16,
-                        "source": "www.example.com",
-                        "totalNeeded": 0
-                    }
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "geometry1",
+                            "ioValue": ""
+                        }
+                    ]
                 },
                 {
                     "atomType": "Stl",
@@ -595,13 +598,6 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 545949,
-                    "ap2ID": 534471
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 534471,
                     "ap2ID": 282516
                 },
                 {
