@@ -138,7 +138,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 11.5
+                            "ioValue": 15.5
                         }
                     ]
                 },
@@ -366,7 +366,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 4
+                            "ioValue": 6
                         }
                     ]
                 },
@@ -400,7 +400,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 6.5
+                            "ioValue": 7
                         }
                     ]
                 },
