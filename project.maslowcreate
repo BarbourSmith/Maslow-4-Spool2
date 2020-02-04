@@ -413,15 +413,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 584,
-                    "y": 33,
-                    "uniqueID": 889728,
-                    "ioValues": [],
-                    "readmeText": "Readme text here"
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 645,
