@@ -318,6 +318,15 @@
                     ]
                 },
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 197,
+                    "y": 206,
+                    "uniqueID": 195158,
+                    "ioValues": [],
+                    "readmeText": "The belt is length 350mm the diameter of the large sprocket is 101.87 and it has 160 teeth. The small sprocket has 20T for a diameter of 12.7324"
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 317,
@@ -326,7 +335,25 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 6
+                            "ioValue": 6.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "2GT Sprocket",
+                    "x": 205,
+                    "y": 283,
+                    "uniqueID": 577795,
+                    "projectID": "235682860",
+                    "ioValues": [
+                        {
+                            "name": "Number of teeth",
+                            "ioValue": 160
+                        },
+                        {
+                            "name": "Resolution",
+                            "ioValue": 0.1
                         }
                     ]
                 },
@@ -346,31 +373,13 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 359,
-                    "y": 230,
+                    "x": 352,
+                    "y": 231,
                     "uniqueID": 961859,
                     "ioValues": [
                         {
                             "name": "height",
                             "ioValue": 7
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "2GT Sprocket",
-                    "x": 317,
-                    "y": 299,
-                    "uniqueID": 577795,
-                    "projectID": "235682860",
-                    "ioValues": [
-                        {
-                            "name": "Number of teeth",
-                            "ioValue": 160
-                        },
-                        {
-                            "name": "Resolution",
-                            "ioValue": 0.1
                         }
                     ]
                 },
@@ -417,15 +426,6 @@
                     ]
                 },
                 {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 493,
-                    "y": 299,
-                    "uniqueID": 195158,
-                    "ioValues": [],
-                    "readmeText": "The belt is length 350mm the diameter of the large sprocket is 101.87 and it has 160 teeth. The small sprocket has 20T for a diameter of 12.7324"
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Cut Away",
                     "x": 524,
@@ -445,8 +445,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 647,
-                    "y": 108,
+                    "x": 645,
+                    "y": 121,
                     "uniqueID": 330008,
                     "ioValues": [
                         {
@@ -571,16 +571,16 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": false,
+                    "ap2Primary": true,
                     "ap1ID": 545949,
-                    "ap2ID": 617259
+                    "ap2ID": 282516
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap2Primary": true,
+                    "ap2Primary": false,
                     "ap1ID": 545949,
-                    "ap2ID": 282516
+                    "ap2ID": 617259
                 },
                 {
                     "ap1Name": "geometry",
