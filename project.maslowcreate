@@ -335,7 +335,20 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 6.5
+                            "ioValue": 14
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 307,
+                    "y": 166,
+                    "uniqueID": 551318,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 1.5
                         }
                     ]
                 },
@@ -360,47 +373,13 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 308,
-                    "y": 166,
-                    "uniqueID": 551318,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 1.5
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
                     "x": 352,
                     "y": 231,
                     "uniqueID": 961859,
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 7
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 450,
-                    "y": 48,
-                    "uniqueID": 303302,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 7.5
+                            "ioValue": 6.5
                         }
                     ]
                 },
@@ -421,7 +400,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 6
+                            "ioValue": 6.5
                         }
                     ]
                 },
@@ -450,15 +429,15 @@
                     "uniqueID": 330008,
                     "ioValues": [
                         {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 2",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
                             "ioValue": 10
                         }
                     ],
@@ -521,10 +500,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
                     "ap1ID": 736293,
-                    "ap2ID": 303302
+                    "ap2ID": 330008
                 },
                 {
                     "ap1Name": "geometry",
@@ -538,13 +517,6 @@
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 961859,
-                    "ap2ID": 330008
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 303302,
                     "ap2ID": 330008
                 },
                 {
