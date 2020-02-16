@@ -440,12 +440,7 @@
                     "x": 755,
                     "y": 196,
                     "uniqueID": 545949,
-                    "ioValues": [
-                        {
-                            "name": "geometry2",
-                            "ioValue": ""
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Stl",
