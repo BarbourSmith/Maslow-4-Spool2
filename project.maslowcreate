@@ -10,6 +10,13 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 107,
@@ -180,13 +187,6 @@
                         }
                     ],
                     "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -281,8 +281,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 115,
-                    "y": 77,
+                    "x": 0.383601756954612,
+                    "y": 0.5478927203065134,
                     "uniqueID": 904447,
                     "ioValues": [
                         {
@@ -290,6 +290,13 @@
                             "ioValue": 77
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Circle",
@@ -458,13 +465,6 @@
                     "uniqueID": 282516,
                     "ioValues": [],
                     "selectedColorIndex": "2"
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
