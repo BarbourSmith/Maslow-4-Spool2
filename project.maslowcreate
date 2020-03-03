@@ -568,15 +568,6 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.8016105417276721,
-                    "y": 0.421455938697318,
-                    "uniqueID": 282516,
-                    "ioValues": [],
-                    "selectedColorIndex": "2"
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 0.16398243045387995,
@@ -588,6 +579,15 @@
                             "ioValue": 77
                         }
                     ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.8374816983894583,
+                    "y": 0.45210727969348663,
+                    "uniqueID": 282516,
+                    "ioValues": [],
+                    "selectedColorIndex": "2"
                 },
                 {
                     "atomType": "Stl",
@@ -703,6 +703,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 904447,
+                    "ap2ID": 736293
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 282516
@@ -713,13 +720,6 @@
                     "ap2Primary": false,
                     "ap1ID": 282516,
                     "ap2ID": 617259
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 904447,
-                    "ap2ID": 736293
                 },
                 {
                     "ap1Name": "geometry",
