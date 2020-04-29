@@ -110,8 +110,8 @@
         {
             "atomType": "Molecule",
             "name": "Cut Away",
-            "x": 0.5585651537335286,
-            "y": 0.16091954022988506,
+            "x": 0.5578330893118594,
+            "y": 0.14559386973180077,
             "uniqueID": 796300,
             "ioValues": [],
             "topLevel": false,
@@ -473,8 +473,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.7690782953419226,
-                    "y": 0.6168582375478927,
+                    "x": 0.760614934114202,
+                    "y": 0.6130268199233716,
                     "uniqueID": 754360,
                     "ioValues": [
                         {
@@ -499,6 +499,7 @@
                     "ap1ID": 487702,
                     "ap2ID": 187297
                 },
+                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
