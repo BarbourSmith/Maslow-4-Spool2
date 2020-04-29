@@ -45,8 +45,8 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.15592972181551978,
-            "y": 0.38697318007662834,
+            "x": 0.1506442021803766,
+            "y": 0.37931034482758624,
             "uniqueID": 489616,
             "ioValues": [
                 {
@@ -92,8 +92,8 @@
         {
             "atomType": "GitHubMolecule",
             "name": "2GT Sprocket",
-            "x": 0.07833089311859444,
-            "y": 0.5363984674329502,
+            "x": 0.07613469985358712,
+            "y": 0.5632183908045977,
             "uniqueID": 577795,
             "projectID": "235682860",
             "ioValues": [
@@ -887,13 +887,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 489616,
-            "ap2ID": 961859
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 549753,
@@ -905,6 +898,13 @@
             "ap2Primary": false,
             "ap1ID": 961859,
             "ap2ID": 330008
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 577795,
+            "ap2ID": 961859
         },
         {
             "ap1Name": "Geometry",
