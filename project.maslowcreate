@@ -863,6 +863,15 @@
             ]
         },
         {
+            "atomType": "GitHubMolecule",
+            "name": "Measure Bounds",
+            "x": 0.7371888726207907,
+            "y": 0.7892720306513409,
+            "uniqueID": 585061,
+            "projectID": "247363759",
+            "ioValues": []
+        },
+        {
             "atomType": "Output",
             "name": "Output",
             "x": 0.9853587115666179,
@@ -933,6 +942,13 @@
             "ap2Primary": true,
             "ap1ID": 545949,
             "ap2ID": 282516
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "Shape",
+            "ap2Primary": false,
+            "ap1ID": 545949,
+            "ap2ID": 585061
         },
         {
             "ap1Name": "geometry",
