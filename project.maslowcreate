@@ -872,13 +872,6 @@
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 489616,
-            "ap2ID": 961859
-        },
-        {
-            "ap1Name": "geometry",
             "ap2Name": "3D shape 6",
             "ap2Primary": false,
             "ap1ID": 549753,
@@ -890,6 +883,13 @@
             "ap2Primary": false,
             "ap1ID": 961859,
             "ap2ID": 330008
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 577795,
+            "ap2ID": 961859
         },
         {
             "ap1Name": "Geometry",
@@ -949,5 +949,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "1.9"
+    "circleSegmentSize": "0.1"
 }
