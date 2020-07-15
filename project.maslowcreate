@@ -125,7 +125,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 69.5
+                            "ioValue": 65.5
                         }
                     ]
                 },
@@ -145,8 +145,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Rope Cutout",
-                    "x": 0.2591508052708638,
-                    "y": 0.6590038314176245,
+                    "x": 0.2686676427525622,
+                    "y": 0.6973180076628352,
                     "uniqueID": 978542,
                     "ioValues": [],
                     "topLevel": false,
@@ -792,15 +792,15 @@
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 77
+                    "ioValue": 72
                 }
             ]
         },
         {
             "atomType": "Assembly",
             "name": "Assembly",
-            "x": 0.5512445095168375,
-            "y": 0.7088122605363985,
+            "x": 0.5505124450951684,
+            "y": 0.7318007662835249,
             "uniqueID": 330008,
             "ioValues": [
                 {
