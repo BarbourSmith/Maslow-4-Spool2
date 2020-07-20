@@ -207,12 +207,7 @@
                             "x": 0.4941434846266472,
                             "y": 0.1149425287356322,
                             "uniqueID": 925545,
-                            "ioValues": [
-                                {
-                                    "name": "geometry2",
-                                    "ioValue": ""
-                                }
-                            ]
+                            "ioValues": []
                         },
                         {
                             "atomType": "Rotate",
@@ -316,10 +311,6 @@
                             "uniqueID": 556814,
                             "ioValues": [
                                 {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
-                                {
                                     "name": "height",
                                     "ioValue": 5
                                 }
@@ -353,10 +344,6 @@
                             "y": 0.4061302681992337,
                             "uniqueID": 842641,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
                                 {
                                     "name": "height",
                                     "ioValue": 5
@@ -484,10 +471,6 @@
                             "y": 0.735632183908046,
                             "uniqueID": 995175,
                             "ioValues": [
-                                {
-                                    "name": "geometry",
-                                    "ioValue": ""
-                                },
                                 {
                                     "name": "height",
                                     "ioValue": 10
@@ -798,16 +781,7 @@
             "x": 0.6742313323572474,
             "y": 0.36015325670498083,
             "uniqueID": 545949,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                },
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Circle",
