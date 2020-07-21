@@ -8,6 +8,19 @@
     "topLevel": true,
     "allAtoms": [
         {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.18037661050545095,
+            "y": 0.18007662835249041,
+            "uniqueID": 904447,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 86
+                }
+            ]
+        },
+        {
             "atomType": "Readme",
             "name": "README",
             "x": 0.07101024890190337,
@@ -17,54 +30,91 @@
             "readmeText": "The belt is length 350mm the diameter of the large sprocket is 101.87 and it has 160 teeth. The small sprocket has 20T for a diameter of 12.7324"
         },
         {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.29137760158572845,
+            "y": 0.10344827586206898,
+            "uniqueID": 736293,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 7.25
+                }
+            ]
+        },
+        {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.15007320644216693,
-            "y": 0.37164750957854403,
-            "uniqueID": 489616,
+            "x": 0.17244796828543113,
+            "y": 0.3639846743295019,
+            "uniqueID": 330646,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 86
+                    "ioValue": 112
                 }
             ]
         },
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.4202180376610506,
-            "y": 0.2720306513409962,
-            "uniqueID": 961859,
+            "x": 0.2983151635282458,
+            "y": 0.37164750957854403,
+            "uniqueID": 551318,
             "ioValues": [
                 {
                     "name": "height",
-                    "ioValue": 6.5
+                    "ioValue": 1.5
                 }
             ]
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "2GT Sprocket",
-            "x": 0.058473736372646176,
-            "y": 0.5402298850574713,
-            "uniqueID": 577795,
-            "projectID": "235682860",
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.48761149653121905,
+            "y": 0.10727969348659004,
+            "uniqueID": 476110,
             "ioValues": [
                 {
-                    "name": "Number of teeth",
-                    "ioValue": 136
+                    "name": "xDist",
+                    "ioValue": 0
                 },
                 {
-                    "name": "Resolution",
-                    "ioValue": 0.1
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 7.25
+                }
+            ]
+        },
+        {
+            "atomType": "Translate",
+            "name": "Translate",
+            "x": 0.44202180376610506,
+            "y": 0.32950191570881227,
+            "uniqueID": 549753,
+            "ioValues": [
+                {
+                    "name": "xDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 6.5
                 }
             ]
         },
         {
             "atomType": "Molecule",
             "name": "Cut Away",
-            "x": 0.5629575402635432,
-            "y": 0.1685823754789272,
+            "x": 0.5837462834489593,
+            "y": 0.19157088122605365,
             "uniqueID": 796300,
             "ioValues": [],
             "topLevel": false,
@@ -141,59 +191,43 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.3002973240832507,
-            "y": 0.5747126436781609,
-            "uniqueID": 551318,
+            "atomType": "GitHubMolecule",
+            "name": "2GT Sprocket",
+            "x": 0.32309217046580774,
+            "y": 0.632183908045977,
+            "uniqueID": 577795,
+            "projectID": "235682860",
             "ioValues": [
                 {
-                    "name": "height",
-                    "ioValue": 1.5
-                }
-            ]
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.1635282457879088,
-            "y": 0.6590038314176245,
-            "uniqueID": 330646,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 112
-                }
-            ]
-        },
-        {
-            "atomType": "Translate",
-            "name": "Translate",
-            "x": 0.42220019821605553,
-            "y": 0.5708812260536399,
-            "uniqueID": 549753,
-            "ioValues": [
-                {
-                    "name": "xDist",
-                    "ioValue": 0
+                    "name": "Number of teeth",
+                    "ioValue": 136
                 },
                 {
-                    "name": "yDist",
-                    "ioValue": 0
-                },
-                {
-                    "name": "zDist",
-                    "ioValue": 6.5
+                    "name": "Resolution",
+                    "ioValue": 0.1
                 }
             ]
         },
         {
             "atomType": "Difference",
             "name": "Difference",
-            "x": 0.6742313323572474,
-            "y": 0.36015325670498083,
+            "x": 0.7244796828543112,
+            "y": 0.367816091954023,
             "uniqueID": 545949,
             "ioValues": []
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.4489593657086224,
+            "y": 0.7509578544061302,
+            "uniqueID": 961859,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 7.25
+                }
+            ]
         },
         {
             "atomType": "Assembly",
@@ -207,11 +241,11 @@
                     "ioValue": 10
                 },
                 {
-                    "name": "3D shape 4",
+                    "name": "3D shape 6",
                     "ioValue": 10
                 },
                 {
-                    "name": "3D shape 6",
+                    "name": "3D shape 7",
                     "ioValue": 10
                 }
             ]
@@ -219,26 +253,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.23092170465807732,
-            "y": 0.8812260536398466,
-            "uniqueID": 904447,
+            "x": 0.23885034687809711,
+            "y": 0.9003831417624522,
+            "uniqueID": 489616,
             "ioValues": [
                 {
                     "name": "diameter",
                     "ioValue": 86
-                }
-            ]
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.39970717423133234,
-            "y": 0.8544061302681992,
-            "uniqueID": 736293,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 14.5
                 }
             ]
         },
@@ -272,14 +293,42 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 489616,
-            "ap2ID": 961859
+            "ap1ID": 904447,
+            "ap2ID": 736293
         },
         {
             "ap1Name": "geometry",
-            "ap2Name": "3D shape 3",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 736293,
+            "ap2ID": 476110
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 330646,
+            "ap2ID": 551318
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 551318,
+            "ap2ID": 549753
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 7",
             "ap2Primary": false,
-            "ap1ID": 961859,
+            "ap1ID": 476110,
+            "ap2ID": 330008
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 6",
+            "ap2Primary": false,
+            "ap1ID": 549753,
             "ap2ID": 330008
         },
         {
@@ -293,29 +342,15 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 551318,
-            "ap2ID": 549753
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 330646,
-            "ap2ID": 551318
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 6",
-            "ap2Primary": false,
-            "ap1ID": 549753,
-            "ap2ID": 330008
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": 545949,
             "ap2ID": 282516
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 961859,
+            "ap2ID": 330008
         },
         {
             "ap1Name": "geometry",
@@ -328,15 +363,8 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 904447,
-            "ap2ID": 736293
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "3D shape 4",
-            "ap2Primary": false,
-            "ap1ID": 736293,
-            "ap2ID": 330008
+            "ap1ID": 489616,
+            "ap2ID": 961859
         },
         {
             "ap1Name": "geometry",
@@ -354,5 +382,5 @@
     ],
     "fileTypeVersion": 1,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.4"
+    "circleSegmentSize": "5.5"
 }
