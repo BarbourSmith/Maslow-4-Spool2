@@ -90,24 +90,6 @@
             ]
         },
         {
-            "atomType": "GitHubMolecule",
-            "name": "2GT Sprocket",
-            "x": 0.10248901903367495,
-            "y": 0.5632183908045977,
-            "uniqueID": 577795,
-            "projectID": "235682860",
-            "ioValues": [
-                {
-                    "name": "Number of teeth",
-                    "ioValue": 160
-                },
-                {
-                    "name": "Resolution",
-                    "ioValue": 0.1
-                }
-            ]
-        },
-        {
             "atomType": "Molecule",
             "name": "Cut Away",
             "x": 0.5629575402635432,
@@ -693,6 +675,24 @@
                 }
             ],
             "fileTypeVersion": 1
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "2GT Sprocket",
+            "x": 0.13616398243045388,
+            "y": 0.6015325670498084,
+            "uniqueID": 577795,
+            "projectID": "235682860",
+            "ioValues": [
+                {
+                    "name": "Number of teeth",
+                    "ioValue": 136
+                },
+                {
+                    "name": "Resolution",
+                    "ioValue": 0.1
+                }
+            ]
         },
         {
             "atomType": "Molecule",
