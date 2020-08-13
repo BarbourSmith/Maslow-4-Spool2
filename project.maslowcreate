@@ -214,16 +214,7 @@
             "x": 0.7244796828543112,
             "y": 0.367816091954023,
             "uniqueID": 545949,
-            "ioValues": [
-                {
-                    "name": "geometry2",
-                    "ioValue": ""
-                },
-                {
-                    "name": "geometry1",
-                    "ioValue": ""
-                }
-            ]
+            "ioValues": []
         },
         {
             "atomType": "Extrude",
