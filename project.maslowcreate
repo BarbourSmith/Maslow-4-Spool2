@@ -45,13 +45,13 @@
         {
             "atomType": "Circle",
             "name": "Circle",
-            "x": 0.17244796828543113,
-            "y": 0.3639846743295019,
+            "x": 0.1705710102489019,
+            "y": 0.3754789272030651,
             "uniqueID": 330646,
             "ioValues": [
                 {
                     "name": "diameter",
-                    "ioValue": 112
+                    "ioValue": 125
                 }
             ]
         },
@@ -214,7 +214,16 @@
             "x": 0.7244796828543112,
             "y": 0.367816091954023,
             "uniqueID": 545949,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "geometry2",
+                    "ioValue": ""
+                },
+                {
+                    "name": "geometry1",
+                    "ioValue": ""
+                }
+            ]
         },
         {
             "atomType": "Extrude",
