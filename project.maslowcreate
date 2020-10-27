@@ -248,25 +248,25 @@
                     ]
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 0.19326500732064422,
-                    "y": 0.7662835249042146,
-                    "uniqueID": 675225,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 115
-                        }
-                    ]
-                },
-                {
                     "atomType": "Difference",
                     "name": "Difference",
                     "x": 0.5746705710102489,
                     "y": 0.5555555555555556,
                     "uniqueID": 812611,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.18594436310395315,
+                    "y": 0.7777777777777777,
+                    "uniqueID": 675225,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 110
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -306,16 +306,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 812611
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 675225,
                     "ap2ID": 201631
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 812611
                 },
                 {
                     "ap1Name": "geometry",
