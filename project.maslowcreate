@@ -32,39 +32,13 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.29137760158572845,
-            "y": 0.10344827586206898,
+            "x": 0.29428989751098095,
+            "y": 0.2298850574712644,
             "uniqueID": 736293,
             "ioValues": [
                 {
                     "name": "height",
                     "ioValue": 7.25
-                }
-            ]
-        },
-        {
-            "atomType": "Circle",
-            "name": "Circle",
-            "x": 0.1705710102489019,
-            "y": 0.3754789272030651,
-            "uniqueID": 330646,
-            "ioValues": [
-                {
-                    "name": "diameter",
-                    "ioValue": 125
-                }
-            ]
-        },
-        {
-            "atomType": "Extrude",
-            "name": "Extrude",
-            "x": 0.2983151635282458,
-            "y": 0.37164750957854403,
-            "uniqueID": 551318,
-            "ioValues": [
-                {
-                    "name": "height",
-                    "ioValue": 1.5
                 }
             ]
         },
@@ -86,6 +60,32 @@
                 {
                     "name": "zDist",
                     "ioValue": 7.25
+                }
+            ]
+        },
+        {
+            "atomType": "GitHubMolecule",
+            "name": "Involute Gear",
+            "x": 0.13982430453879943,
+            "y": 0.5172413793103449,
+            "uniqueID": 950686,
+            "projectID": "307507544",
+            "ioValues": [
+                {
+                    "name": "Number Of Teeth",
+                    "ioValue": 130
+                },
+                {
+                    "name": "Circular Pitch",
+                    "ioValue": 3
+                },
+                {
+                    "name": "Pressure Angle",
+                    "ioValue": 20
+                },
+                {
+                    "name": "Clearance",
+                    "ioValue": 0
                 }
             ]
         },
@@ -171,10 +171,36 @@
             "fileTypeVersion": 1
         },
         {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.32210834553440704,
+            "y": 0.524904214559387,
+            "uniqueID": 551318,
+            "ioValues": [
+                {
+                    "name": "height",
+                    "ioValue": 1.5
+                }
+            ]
+        },
+        {
+            "atomType": "Circle",
+            "name": "Circle",
+            "x": 0.2342606149341142,
+            "y": 0.6628352490421456,
+            "uniqueID": 330646,
+            "ioValues": [
+                {
+                    "name": "diameter",
+                    "ioValue": 125
+                }
+            ]
+        },
+        {
             "atomType": "GitHubMolecule",
             "name": "2GT Sprocket",
-            "x": 0.32309217046580774,
-            "y": 0.632183908045977,
+            "x": 0.34260614934114203,
+            "y": 0.7088122605363985,
             "uniqueID": 577795,
             "projectID": "235682860",
             "ioValues": [
@@ -273,29 +299,8 @@
             "ap1Name": "geometry",
             "ap2Name": "geometry",
             "ap2Primary": true,
-            "ap1ID": 904447,
-            "ap2ID": 736293
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
             "ap1ID": 736293,
             "ap2ID": 476110
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 330646,
-            "ap2ID": 551318
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry",
-            "ap2Primary": true,
-            "ap1ID": 551318,
-            "ap2ID": 549753
         },
         {
             "ap1Name": "geometry",
@@ -303,6 +308,13 @@
             "ap2Primary": false,
             "ap1ID": 476110,
             "ap2ID": 799048
+        },
+        {
+            "ap1Name": "Geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 950686,
+            "ap2ID": 736293
         },
         {
             "ap1Name": "geometry",
@@ -317,6 +329,20 @@
             "ap2Primary": false,
             "ap1ID": 796300,
             "ap2ID": 545949
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 551318,
+            "ap2ID": 549753
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 330646,
+            "ap2ID": 551318
         },
         {
             "ap1Name": "geometry",
