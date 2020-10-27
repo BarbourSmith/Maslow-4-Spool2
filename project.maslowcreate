@@ -211,14 +211,14 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Involute Gear",
-                    "x": 0.19838945827232798,
-                    "y": 0.3448275862068966,
+                    "x": 0.19472913616398244,
+                    "y": 0.2681992337164751,
                     "uniqueID": 391156,
                     "projectID": "307507544",
                     "ioValues": [
                         {
                             "name": "Number Of Teeth",
-                            "ioValue": 125
+                            "ioValue": 132
                         },
                         {
                             "name": "Circular Pitch",
