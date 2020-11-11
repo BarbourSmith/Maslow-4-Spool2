@@ -288,8 +288,21 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.6412289395441031,
-                    "y": 0.20306513409961685,
+                    "x": 0.3389458272327965,
+                    "y": 0.5862068965517242,
+                    "uniqueID": 367911,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 30
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.6464128843338214,
+                    "y": 0.25287356321839083,
                     "uniqueID": 187297,
                     "ioValues": [
                         {
@@ -301,8 +314,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Linear GT2 Belt",
-                    "x": 0.19692532942898977,
-                    "y": 0.7394636015325671,
+                    "x": 0.18521229868228403,
+                    "y": 0.6896551724137931,
                     "uniqueID": 670651,
                     "projectID": "280060413",
                     "ioValues": [
@@ -333,6 +346,13 @@
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 187297
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 670651,
+                    "ap2ID": 367911
                 }
             ],
             "fileTypeVersion": 1
