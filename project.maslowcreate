@@ -240,6 +240,19 @@
                     ]
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.4831625183016105,
+                    "y": 0.5708812260536399,
+                    "uniqueID": 731813,
+                    "ioValues": [
+                        {
+                            "name": "geometry2",
+                            "ioValue": ""
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.23865300146412882,
@@ -322,6 +335,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap2Primary": false,
+                    "ap1ID": 488931,
+                    "ap2ID": 731813
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 336713
@@ -333,6 +353,7 @@
                     "ap1ID": 335752,
                     "ap2ID": 601164
                 },
+                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
