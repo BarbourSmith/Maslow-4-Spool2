@@ -171,6 +171,26 @@
             ]
         },
         {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 0.1698389458272328,
+            "y": 0.7547892720306513,
+            "uniqueID": 640624,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
             "atomType": "Difference",
             "name": "Difference",
             "x": 0.7244796828543112,
