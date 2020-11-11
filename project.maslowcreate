@@ -54,8 +54,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.4011713030746705,
-                    "y": 0.24521072796934865,
+                    "x": 0.4048316251830161,
+                    "y": 0.2222222222222222,
                     "uniqueID": 488931,
                     "ioValues": [
                         {
@@ -314,8 +314,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Linear GT2 Belt",
-                    "x": 0.18521229868228403,
-                    "y": 0.6896551724137931,
+                    "x": 0.17349926793557832,
+                    "y": 0.7203065134099617,
                     "uniqueID": 670651,
                     "projectID": "280060413",
                     "ioValues": [
@@ -343,6 +343,48 @@
                         {
                             "name": "zDist",
                             "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.42313323572474376,
+                    "y": 0.6973180076628352,
+                    "uniqueID": 144645,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 7.25
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.3301610541727672,
+                    "y": 0.8084291187739464,
+                    "uniqueID": 572027,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 7.25
                         }
                     ]
                 },
