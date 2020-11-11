@@ -299,6 +299,20 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Linear GT2 Belt",
+                    "x": 0.20644216691068812,
+                    "y": 0.6551724137931034,
+                    "uniqueID": 670651,
+                    "projectID": "280060413",
+                    "ioValues": [
+                        {
+                            "name": "Number of teeth",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
