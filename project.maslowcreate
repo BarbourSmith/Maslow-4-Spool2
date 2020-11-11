@@ -326,6 +326,14 @@
                     ]
                 },
                 {
+                    "atomType": "Union",
+                    "name": "Union",
+                    "x": 0.7679355783308931,
+                    "y": 0.6168582375478927,
+                    "uniqueID": 630584,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -347,6 +355,7 @@
                     "ap2Primary": false,
                     "ap1ID": 187297
                 },
+                null,
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
