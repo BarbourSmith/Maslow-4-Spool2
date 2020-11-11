@@ -266,8 +266,8 @@
         {
             "atomType": "Molecule",
             "name": "Cut Away",
-            "x": 0.5837462834489593,
-            "y": 0.19157088122605365,
+            "x": 0.5827232796486091,
+            "y": 0.18773946360153254,
             "uniqueID": 796300,
             "ioValues": [],
             "topLevel": false,
@@ -342,7 +342,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 7.25
+                            "ioValue": 8
                         }
                     ]
                 },
