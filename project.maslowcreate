@@ -229,26 +229,17 @@
                 {
                     "atomType": "Union",
                     "name": "Union",
-                    "x": 0.6456808199121523,
-                    "y": 0.3448275862068966,
+                    "x": 0.6954612005856515,
+                    "y": 0.31800766283524906,
                     "uniqueID": 336713,
                     "ioValues": [
                         {
                             "name": "3D shape 1",
                             "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 0.4831625183016105,
-                    "y": 0.5708812260536399,
-                    "uniqueID": 731813,
-                    "ioValues": [
+                        },
                         {
-                            "name": "geometry2",
-                            "ioValue": ""
+                            "name": "3D shape 2",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -304,6 +295,35 @@
                     ]
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 0.48462664714494874,
+                    "y": 0.6475095785440613,
+                    "uniqueID": 731813,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.5673499267935578,
+                    "y": 0.7394636015325671,
+                    "uniqueID": 696994,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -1
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -353,13 +373,33 @@
                     "ap1ID": 335752,
                     "ap2ID": 601164
                 },
-                null,
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap2Primary": false,
+                    "ap1ID": 601164,
+                    "ap2ID": 731813
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 141826,
                     "ap2ID": 335752
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 731813,
+                    "ap2ID": 696994
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 696994,
+                    "ap2ID": 336713
                 }
             ],
             "fileTypeVersion": 1
