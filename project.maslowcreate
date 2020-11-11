@@ -227,6 +227,14 @@
                     ]
                 },
                 {
+                    "atomType": "Union",
+                    "name": "Union",
+                    "x": 0.6456808199121523,
+                    "y": 0.3448275862068966,
+                    "uniqueID": 336713,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 0.23865300146412882,
@@ -300,6 +308,7 @@
                     "ap1ID": 562336,
                     "ap2ID": 488931
                 },
+                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
