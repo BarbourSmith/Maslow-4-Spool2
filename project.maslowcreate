@@ -836,7 +836,12 @@
             "x": 0.9853587115666179,
             "y": 0.5,
             "uniqueID": 867207,
-            "ioValues": []
+            "ioValues": [
+                {
+                    "name": "number or geometry",
+                    "ioValue": "atoms/659624/282516Color"
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -902,6 +907,13 @@
             "ap2Primary": false,
             "ap1ID": 282516,
             "ap2ID": 617259
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "number or geometry",
+            "ap2Primary": false,
+            "ap1ID": 282516,
+            "ap2ID": 867207
         }
     ],
     "fileTypeVersion": 1,
