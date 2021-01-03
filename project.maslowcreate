@@ -75,8 +75,8 @@
                 {
                     "atomType": "Union",
                     "name": "Union",
-                    "x": 0.6954612005856515,
-                    "y": 0.31800766283524906,
+                    "x": 0.6947291361639825,
+                    "y": 0.3015267175572519,
                     "uniqueID": 336713,
                     "ioValues": [
                         {
@@ -268,8 +268,8 @@
         {
             "atomType": "Molecule",
             "name": "Cut Away",
-            "x": 0.5850000000000001,
-            "y": 0.17624521072796936,
+            "x": 0.5812591508052709,
+            "y": 0.14122137404580154,
             "uniqueID": 796300,
             "ioValues": [],
             "topLevel": false,
@@ -277,8 +277,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.26461843409316155,
-                    "y": 0.1839080459770115,
+                    "x": 0.2613469985358711,
+                    "y": 0.17557251908396945,
                     "uniqueID": 487702,
                     "ioValues": [
                         {
@@ -314,6 +314,20 @@
                     ]
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Linear GT2 Belt",
+                    "x": 0.15080527086383602,
+                    "y": 0.7137404580152672,
+                    "uniqueID": 670651,
+                    "projectID": "280060413",
+                    "ioValues": [
+                        {
+                            "name": "Number of teeth",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.44289897510980963,
@@ -331,20 +345,6 @@
                         {
                             "name": "zDist",
                             "ioValue": 8
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Linear GT2 Belt",
-                    "x": 0.18,
-                    "y": 0.8122605363984674,
-                    "uniqueID": 670651,
-                    "projectID": "280060413",
-                    "ioValues": [
-                        {
-                            "name": "Number of teeth",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -425,18 +425,18 @@
                     "ap2ID": 801532
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 810868,
-                    "ap2ID": 871009
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 670651,
                     "ap2ID": 367911
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 810868,
+                    "ap2ID": 871009
                 },
                 {
                     "ap1Name": "geometry",
