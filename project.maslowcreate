@@ -530,7 +530,7 @@
                     "ioValues": [
                         {
                             "name": "Number Of Teeth",
-                            "ioValue": 133
+                            "ioValue": 129
                         },
                         {
                             "name": "Circular Pitch",
