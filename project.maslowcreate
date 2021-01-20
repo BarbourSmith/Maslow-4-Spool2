@@ -557,8 +557,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive Gear",
-            "x": 0.39385065885797954,
-            "y": 0.7709923664122137,
+            "x": 0.39311859443631036,
+            "y": 0.767175572519084,
             "uniqueID": 268319,
             "ioValues": [],
             "topLevel": false,
@@ -590,6 +590,23 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.4541947926711668,
+                    "y": 0.32061068702290074,
+                    "uniqueID": 674155,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": "atoms/659624/268319/391156/644051Code"
+                        },
+                        {
+                            "name": "height",
+                            "ioValue": 7.25
+                        }
+                    ]
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
                     "x": 0.14641288433382138,
@@ -599,19 +616,6 @@
                         {
                             "name": "diameter",
                             "ioValue": 117
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 0.47291361639824303,
-                    "y": 0.31800766283524906,
-                    "uniqueID": 674155,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 7.25
                         }
                     ]
                 },
@@ -635,8 +639,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 0.5746705710102489,
-                    "y": 0.5555555555555556,
+                    "x": 0.6104146576663452,
+                    "y": 0.5038167938931297,
                     "uniqueID": 812611,
                     "ioValues": [
                         {
@@ -720,17 +724,17 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 675225,
-                    "ap2ID": 201631
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 674155,
                     "ap2ID": 812611
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 675225,
+                    "ap2ID": 201631
                 },
                 {
                     "ap1Name": "geometry",
