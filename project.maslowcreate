@@ -19,8 +19,8 @@
         {
             "atomType": "Molecule",
             "name": "Top Part",
-            "x": 0.36090775988286966,
-            "y": 0.1717557251908397,
+            "x": 0.3550512445095168,
+            "y": 0.16793893129770993,
             "uniqueID": 640624,
             "ioValues": [],
             "topLevel": false,
@@ -186,7 +186,7 @@
                         },
                         {
                             "name": "xDist",
-                            "ioValue": -2
+                            "ioValue": 2
                         },
                         {
                             "name": "yDist",
@@ -328,10 +328,6 @@
                     "y": 0.5593869731800766,
                     "uniqueID": 367911,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "atoms/659624/796300/670651/471242/709218Code"
-                        },
                         {
                             "name": "height",
                             "ioValue": 7.25
@@ -553,10 +549,6 @@
             "uniqueID": 545949,
             "ioValues": [
                 {
-                    "name": "geometry2",
-                    "ioValue": "atoms/659624/796300/630584Union"
-                },
-                {
                     "name": "geometry1",
                     "ioValue": "atoms/659624/799048Union"
                 }
@@ -565,8 +557,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive Gear",
-            "x": 0.3934426229508197,
-            "y": 0.767175572519084,
+            "x": 0.39385065885797954,
+            "y": 0.7709923664122137,
             "uniqueID": 268319,
             "ioValues": [],
             "topLevel": false,
