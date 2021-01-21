@@ -302,8 +302,8 @@
         {
             "atomType": "Molecule",
             "name": "Cut Away",
-            "x": 0.5805207328833173,
-            "y": 0.12595419847328243,
+            "x": 0.5891996142719382,
+            "y": 0.13358778625954199,
             "uniqueID": 796300,
             "ioValues": [],
             "topLevel": false,
@@ -441,7 +441,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "atoms/659624/796300/630584Union"
+                            "ioValue": "atoms/659624/796300/187297Extrude"
                         }
                     ]
                 }
@@ -469,6 +469,13 @@
                     "ap2ID": 630584
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 187297,
+                    "ap2ID": 801532
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -488,13 +495,6 @@
                     "ap2Primary": false,
                     "ap1ID": 871009,
                     "ap2ID": 630584
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 630584,
-                    "ap2ID": 801532
                 }
             ],
             "fileTypeVersion": 1
@@ -542,6 +542,27 @@
             ]
         },
         {
+            "atomType": "Union",
+            "name": "Union",
+            "x": 0.5438765670202507,
+            "y": 0.5763358778625954,
+            "uniqueID": 882840,
+            "ioValues": [
+                {
+                    "name": "3D shape 1",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 10
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 10
+                }
+            ]
+        },
+        {
             "atomType": "Difference",
             "name": "Difference",
             "x": 0.7244796828543112,
@@ -549,16 +570,20 @@
             "uniqueID": 545949,
             "ioValues": [
                 {
+                    "name": "geometry2",
+                    "ioValue": "atoms/659624/796300/187297Extrude"
+                },
+                {
                     "name": "geometry1",
-                    "ioValue": "atoms/659624/799048Union"
+                    "ioValue": "atoms/659624/882840Union"
                 }
             ]
         },
         {
             "atomType": "Molecule",
             "name": "Drive Gear",
-            "x": 0.39311859443631036,
-            "y": 0.767175572519084,
+            "x": 0.39633558341369335,
+            "y": 0.7633587786259541,
             "uniqueID": 268319,
             "ioValues": [],
             "topLevel": false,
@@ -596,10 +621,6 @@
                     "y": 0.32061068702290074,
                     "uniqueID": 674155,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": "atoms/659624/268319/391156/644051Code"
-                        },
                         {
                             "name": "height",
                             "ioValue": 7.25
@@ -775,27 +796,6 @@
             "fileTypeVersion": 1
         },
         {
-            "atomType": "Union",
-            "name": "Union",
-            "x": 0.5980966325036603,
-            "y": 0.6283524904214559,
-            "uniqueID": 799048,
-            "ioValues": [
-                {
-                    "name": "3D shape 2",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 4",
-                    "ioValue": 10
-                },
-                {
-                    "name": "3D shape 5",
-                    "ioValue": 10
-                }
-            ]
-        },
-        {
             "atomType": "Stl",
             "name": "Stl",
             "x": 0.917276720351391,
@@ -839,10 +839,10 @@
     "allConnectors": [
         {
             "ap1Name": "Geometry",
-            "ap2Name": "3D shape 5",
+            "ap2Name": "3D shape 3",
             "ap2Primary": false,
             "ap1ID": 640624,
-            "ap2ID": 799048
+            "ap2ID": 882840
         },
         {
             "ap1Name": "geometry",
@@ -870,7 +870,14 @@
             "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 549753,
-            "ap2ID": 799048
+            "ap2ID": 882840
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry1",
+            "ap2Primary": false,
+            "ap1ID": 882840,
+            "ap2ID": 545949
         },
         {
             "ap1Name": "geometry",
@@ -881,17 +888,10 @@
         },
         {
             "ap1Name": "Geometry",
-            "ap2Name": "3D shape 4",
+            "ap2Name": "3D shape 1",
             "ap2Primary": false,
             "ap1ID": 268319,
-            "ap2ID": 799048
-        },
-        {
-            "ap1Name": "geometry",
-            "ap2Name": "geometry1",
-            "ap2Primary": false,
-            "ap1ID": 799048,
-            "ap2ID": 545949
+            "ap2ID": 882840
         },
         {
             "ap1Name": "geometry",
