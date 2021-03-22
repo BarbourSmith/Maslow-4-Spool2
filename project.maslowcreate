@@ -299,7 +299,7 @@
                 },
                 {
                     "name": "height",
-                    "ioValue": 1.5
+                    "ioValue": 0.75
                 }
             ]
         },
@@ -337,7 +337,7 @@
                 },
                 {
                     "name": "zDist",
-                    "ioValue": 6.5
+                    "ioValue": 7.25
                 }
             ]
         },
