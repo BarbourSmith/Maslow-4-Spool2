@@ -939,10 +939,27 @@
                     ]
                 },
                 {
+                    "atomType": "Group",
+                    "name": "Group",
+                    "x": 0.7715959004392388,
+                    "y": 0.7213740458015268,
+                    "uniqueID": 292656,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Braces",
-                    "x": 0.6032210834553441,
-                    "y": 0.8625954198473282,
+                    "x": 0.6076134699853587,
+                    "y": 0.866412213740458,
                     "uniqueID": 180303,
                     "ioValues": [],
                     "topLevel": false,
@@ -1088,11 +1105,11 @@
                             "ioValues": [
                                 {
                                     "name": "Angle",
-                                    "ioValue": 30
+                                    "ioValue": 20
                                 },
                                 {
                                     "name": "Number",
-                                    "ioValue": 11
+                                    "ioValue": 17
                                 }
                             ],
                             "simplify": false
@@ -1205,23 +1222,6 @@
                     "simplify": false
                 },
                 {
-                    "atomType": "Group",
-                    "name": "Group",
-                    "x": 0.7715959004392388,
-                    "y": 0.7213740458015268,
-                    "uniqueID": 292656,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 0.9853587115666179,
@@ -1293,18 +1293,18 @@
                     "ap2ID": 812611
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 1",
-                    "ap2Primary": false,
-                    "ap1ID": 180303,
-                    "ap2ID": 292656
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 292656,
                     "ap2ID": 377190
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 180303,
+                    "ap2ID": 292656
                 }
             ],
             "fileTypeVersion": 1,
