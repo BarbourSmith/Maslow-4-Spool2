@@ -940,9 +940,9 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 0.6017569546120058,
-                    "y": 0.8206106870229009,
+                    "name": "Braces",
+                    "x": 0.6032210834553441,
+                    "y": 0.8625954198473282,
                     "uniqueID": 180303,
                     "ioValues": [],
                     "topLevel": false,
@@ -973,7 +973,7 @@
                             "ioValues": [
                                 {
                                     "name": "x length",
-                                    "ioValue": 28
+                                    "ioValue": 14
                                 },
                                 {
                                     "name": "y length",
@@ -1036,7 +1036,7 @@
                                 },
                                 {
                                     "name": "xDist",
-                                    "ioValue": 57
+                                    "ioValue": 50
                                 },
                                 {
                                     "name": "yDist",
@@ -1074,7 +1074,7 @@
                             "ioValues": [
                                 {
                                     "name": "diameter",
-                                    "ioValue": 20
+                                    "ioValue": 15
                                 }
                             ]
                         },
@@ -1118,7 +1118,7 @@
                                 },
                                 {
                                     "name": "zDist",
-                                    "ioValue": 13
+                                    "ioValue": 10
                                 }
                             ]
                         },
@@ -1230,7 +1230,7 @@
                     "ioValues": [
                         {
                             "name": "number or geometry",
-                            "ioValue": "atoms/659624/268319/812611Difference"
+                            "ioValue": "atoms/659624/268319/292656Group"
                         }
                     ]
                 }
@@ -1266,13 +1266,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 812611,
-                    "ap2ID": 377190
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 812611,
@@ -1305,6 +1298,13 @@
                     "ap2Primary": false,
                     "ap1ID": 180303,
                     "ap2ID": 292656
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 292656,
+                    "ap2ID": 377190
                 }
             ],
             "fileTypeVersion": 1,
