@@ -378,7 +378,8 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "simplify": false
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
             "atomType": "Molecule",
@@ -638,13 +639,14 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "simplify": false
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
             "atomType": "Molecule",
             "name": "Cut Away",
-            "x": 0.5885558583106266,
-            "y": 0.183206106870229,
+            "x": 0.58994708994709,
+            "y": 0.16346153846153846,
             "uniqueID": 796300,
             "ioValues": [],
             "topLevel": false,
@@ -658,7 +660,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 82
+                            "ioValue": 82.5
                         }
                     ]
                 },
@@ -844,7 +846,8 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "simplify": false
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
             "atomType": "Union",
@@ -1295,7 +1298,8 @@
                         }
                     ],
                     "fileTypeVersion": 1,
-                    "simplify": false
+                    "simplify": false,
+                    "unitsIndex": 0
                 },
                 {
                     "atomType": "Group",
@@ -1401,7 +1405,8 @@
                 }
             ],
             "fileTypeVersion": 1,
-            "simplify": false
+            "simplify": false,
+            "unitsIndex": 0
         },
         {
             "atomType": "Stl",
@@ -1504,6 +1509,7 @@
     ],
     "fileTypeVersion": 1,
     "simplify": false,
+    "unitsIndex": 0,
     "filetypeVersion": 1,
-    "circleSegmentSize": "0.051"
+    "circleSegmentSize": "0.001"
 }
