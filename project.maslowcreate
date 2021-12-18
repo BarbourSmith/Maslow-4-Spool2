@@ -1409,6 +1409,14 @@
             "unitsIndex": 0
         },
         {
+            "atomType": "Assembly",
+            "name": "Assembly",
+            "x": 0.580026455026455,
+            "y": 0.7403846153846154,
+            "uniqueID": 892501,
+            "ioValues": []
+        },
+        {
             "atomType": "Stl",
             "name": "Stl",
             "x": 0.917276720351391,
